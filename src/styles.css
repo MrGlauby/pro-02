@@ -1,0 +1,135 @@
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 246, 236) 39.5%,
+    rgba(100, 46, 122, 0.23) 100.2%
+  );
+  text-align: justify;
+  padding: 3%;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  background-image: url("./images/Header.jpg");
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 50vh;
+}
+
+h1.name {
+  padding: 3%;
+  color: white;
+  font-size: 80px;
+}
+
+nav {
+  border-style: solid;
+  border-color: white;
+  font-size: 20px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  list-style: none;
+}
+
+nav a {
+  list-style: none;
+  text-decoration: none;
+  color: #f95959;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+nav a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#footer {
+  font-size: 16px;
+}
+
+form {
+  padding: 30px;
+}
+
+form input,
+form textarea {
+  width: 50%;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button {
+  background: black;
+  color: white;
+  border: solid;
+  border-color: black;
+  border-radius: 3px;
+  width: 15%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: solid;
+  border-color: black;
+  opacity: 0.8;
+  transition: all 0.3s;
+}
+
+p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+img {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.gallery {
+  max-width: 20%;
+}
+
+article.section1 {
+  background: black;
+  margin: auto;
+  padding: 20px;
+  color: white;
+}
+
+div.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.artwork {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+imgcaption {
+  margin: auto;
+  position: relative;
+  margin-top: 30%;
+  margin-left: -25%;
+}
